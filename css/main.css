@@ -593,3 +593,46 @@ footer {
     background-color: #333;
     height: 50px;
 }
+
+
+/* Sprites */
+
+.center{
+    margin: 0 auto;
+}
+
+.bg-adv1 {
+    width: 55px; height: 60px;
+    background: url('../img/css_sprites.png') -10px -10px;
+    
+}
+
+.bg-adv2 {
+    width: 55px; height: 60px;
+    background: url('../img/css_sprites.png') -85px -10px;
+}
+
+.bg-adv3 {
+    width: 60px; height: 54px;
+    background: url('../img/css_sprites.png') -160px -10px;
+}
+
+.bg-reason1 {
+    width: 55px; height: 34px;
+    background: url('../img/css_sprites.png') -69px -158px;
+}
+
+.bg-reason2 {
+    width: 45px; height: 45px;
+    background: url('../img/css_sprites.png') -78px -90px;
+}
+
+.bg-reason3 {
+    width: 39px; height: 57px;
+    background: url('../img/css_sprites.png') -10px -158px;
+}
+
+.bg-reason4 {
+    width: 48px; height: 48px;
+    background: url('../img/css_sprites.png') -10px -90px;
+}
