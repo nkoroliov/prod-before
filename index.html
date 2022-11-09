@@ -5,16 +5,16 @@
     <meta name="description" content="Homework14">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <link rel="preload" href="css/main.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" as="style">
     <link rel="stylesheet" href="css/screen.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/main.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <title>Title</title>
 </head>
 <body>
-<div id="preloader" class="visible">
-</div>
 <header>
     <div class="wrapper">
         <img src="img/logo.png" alt="Logo Avtoparktronik" class="logo">
@@ -288,19 +288,6 @@
 
     </div>
 </footer>
-<script src="./js/preloader.js"></script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-<script>
-$('.review-slider').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: true,
-  prevArrow: $('.previous'),
-  nextArrow: $('.next')
-});
-</script>
 
 <script>
     // 2. This code loads the IFrame Player API code asynchronously.
@@ -343,6 +330,19 @@ $('.review-slider').slick({
     function stopVideo() {
         player.stopVideo();
     }
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<script>
+$('.review-slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: true,
+  prevArrow: $('.previous'),
+  nextArrow: $('.next')
+});
 </script>
 </body>
 </html>
